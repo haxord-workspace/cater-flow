@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/cater-flow/sw.js', { scope: '/cater-flow/' })})}
