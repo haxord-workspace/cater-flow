@@ -6,6 +6,7 @@ import { MobileBottomNav } from './components/Navigation/MobileBottomNav';
 import { GlobalSearchModal } from './components/Navigation/GlobalSearchModal';
 import { QuickActionSheet } from './components/Navigation/QuickActionSheet';
 import { ToastContainer } from './components/Common/ToastContainer';
+import { PwaInstallPrompt } from './components/Common/PwaInstallPrompt';
 
 // View Components
 import { DashboardView } from './components/Dashboard/DashboardView';
@@ -146,6 +147,9 @@ const MainAppLayout: React.FC = () => {
 
       {/* Toast Notification Container */}
       <ToastContainer />
+
+      {/* PWA Mobile Install Banner */}
+      <PwaInstallPrompt />
     </div>
   );
 };

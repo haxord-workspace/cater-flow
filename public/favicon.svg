@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="cf-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DE7B98" />
+      <stop offset="100%" stop-color="#B84F6E" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#8E344F" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background with rounded squircles -->
+  <rect width="512" height="512" rx="128" fill="url(#cf-grad)"/>
+  
+  <!-- Subtle inner border -->
+  <rect x="8" y="8" width="496" height="496" rx="120" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="6"/>
+
+  <!-- Logo Graphics: Elegant Cloche / Plate & Sound Waves -->
+  <g filter="url(#shadow)" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Cloche handle -->
+    <circle cx="256" cy="148" r="22" fill="#FFFFFF"/>
+    
+    <!-- Cloche dome -->
+    <path d="M128 296 C128 196 186 172 256 172 C326 172 384 196 384 296 Z" fill="rgba(255,255,255,0.15)" stroke-width="24"/>
+    
+    <!-- Tray base -->
+    <path d="M100 300 L412 300 C418 300 424 306 424 312 L424 324 C424 332 418 338 410 338 L102 338 C94 338 88 332 88 324 L88 312 C88 306 94 300 100 300 Z" fill="#FFFFFF" stroke-width="6"/>
+    
+    <!-- Dynamic Steam / Sound Sparkles -->
+    <path d="M210 100 Q200 80 216 62" stroke-width="16" stroke="#FFFFFF"/>
+    <path d="M256 90 Q256 68 266 50" stroke-width="16" stroke="#FFFFFF"/>
+    <path d="M302 100 Q312 80 296 62" stroke-width="16" stroke="#FFFFFF"/>
+
+    <!-- Rental / Audio pulse indicator under tray -->
+    <circle cx="206" cy="380" r="10" fill="#FFFFFF"/>
+    <circle cx="256" cy="380" r="14" fill="#FFFFFF"/>
+    <circle cx="306" cy="380" r="10" fill="#FFFFFF"/>
+  </g>
+</svg>
