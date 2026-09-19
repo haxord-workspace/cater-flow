@@ -1,0 +1,75 @@
+/* CaterFlow Design Tokens - Soft Monochromatic Color System */
+:root {
+  /* Brand Soft Tonal Colors */
+  --bg-main: #F8F7F3;
+  --bg-surface: #FCFBF8;
+  --bg-surface-secondary: #F3F1EB;
+  --bg-surface-hover: #EFECE4;
+  --bg-elevated: #FFFFFF;
+  
+  /* Primary Tone: #CA6180 (Warm Rose-Plum) & Tonal Variations */
+  --primary: #CA6180;
+  --primary-hover: #B74D6E;
+  --primary-soft: #F8EBF0;
+  --primary-lighter: #FAF2F5;
+  --primary-border: #EAC8D4;
+  --primary-dark: #8E344F;
+  
+  /* Text & Contrast */
+  --text-primary: #343A36;
+  --text-secondary: #777D78;
+  --text-muted: #9DA39E;
+  --text-inverse: #FCFBF8;
+  
+  /* Borders & Dividers */
+  --border-color: #E5E3DD;
+  --border-light: #ECEAE4;
+  --border-focus: #CA6180;
+  
+  /* Muted Status Colors */
+  --status-success-bg: #EEF4F0;
+  --status-success-text: #53755A;
+  --status-success-border: #D1E2D5;
+  
+  --status-warning-bg: #F7F3EB;
+  --status-warning-text: #8E744A;
+  --status-warning-border: #E8DEC9;
+  
+  --status-danger-bg: #F8EDED;
+  --status-danger-text: #965B5B;
+  --status-danger-border: #E8CDCD;
+  
+  --status-info-bg: #EEF3F6;
+  --status-info-text: #597380;
+  --status-info-border: #D1DFE6;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Outfit', 'Inter', sans-serif;
+  
+  /* Border Radii */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 22px;
+  --radius-full: 9999px;
+  
+  /* Soft Shadows (Never aggressive) */
+  --shadow-xs: 0 1px 2px rgba(52, 58, 54, 0.04);
+  --shadow-sm: 0 2px 8px rgba(52, 58, 54, 0.04);
+  --shadow-md: 0 6px 18px rgba(52, 58, 54, 0.06);
+  --shadow-lg: 0 12px 32px rgba(52, 58, 54, 0.08);
+  --shadow-sheet: 0 -8px 30px rgba(52, 58, 54, 0.1);
+  
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+  
+  /* Dimensions & Spacing */
+  --header-height: 64px;
+  --mobile-bottom-nav-height: 68px;
+  --sidebar-width: 250px;
+  --sidebar-collapsed-width: 72px;
+  --content-max-width: 1400px;
+}
